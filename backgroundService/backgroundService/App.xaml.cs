@@ -1,4 +1,5 @@
-﻿using System;
+﻿using backgroundService.View;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace backgroundService
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new LocationView();
         }
 
         protected override void OnStart()
